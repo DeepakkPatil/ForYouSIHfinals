@@ -1,4 +1,7 @@
 <h1><u>FOR YOU</u></h1>
+
+![image](https://user-images.githubusercontent.com/108725514/190843886-083f23ac-6f45-49bf-a790-13c3ac3c74a2.jpg)
+
 ForYou is a self care mobile application for school and college going students. Main aim of the app is to promote self-care among students and to enhance the overall well-being including mental, physical and social health. This self-care application focuses on the school going students and university students to promote self care among them and motivate them to improve their social, physical and mental activities.
  
 This app is divided into 4 levels : The application provides following features: 
@@ -14,6 +17,11 @@ First, students have to register through the App. After Login, depending on  his
 
 
 <h1>Features</h1>
+
+![f1](https://user-images.githubusercontent.com/108725514/190844649-e444ad9c-99d4-4bc0-9c23-d91b825aaf77.png)
+
+![f2](https://user-images.githubusercontent.com/108725514/190844533-4ce08fca-ad48-44ed-b198-19f7a76b891b.png)
+
 
 The Mobile App offers various features which can be used by a student :
 
