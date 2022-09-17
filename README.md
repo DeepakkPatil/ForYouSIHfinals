@@ -43,7 +43,8 @@ The Mobile App offers various features which can be used by a student :
 * Parent section
 * ADMIN PANEL FOR NCERT (WEB BASED)
 
-
+<h1>Documentation</h1>
+Refer the Documentation : techjunkies_sih.pdf
 
 
 <h2>Installation procedure:</h2>
