@@ -44,8 +44,14 @@ The Mobile App offers various features which can be used by a student :
 * ADMIN PANEL FOR NCERT (WEB BASED)
 
 <h1>Documentation</h1>
-Refer the Documentation : techjunkies_sih.pdf
+Refer the Documentation :  
 
+[TechJunkiesDoc](https://github.com/DeepakkPatil/ForYouSIHfinals/blob/main/techjunkies_sih.pdf)
+
+
+Refer Presentation :
+
+[SIH_PPT](https://github.com/DeepakkPatil/ForYouSIHfinals/blob/main/SIH%20PPT.pptx)
 
 <h2>Installation procedure:</h2>
 
@@ -55,13 +61,15 @@ Open the folder in android studio as a new project and connect it to the firebas
 
 Set the plugin
 
-<code>plugins{
+```
+plugins{
  
     id 'com.android.application' version '7.1.2' apply false
     id 'com.android.library' version '7.1.2' apply false
     id 'org.jetbrains.kotlin.android' version '1.6.10' apply false  
  
-}</code>
+}
+```
 set sdk version 32 (min 22)versions.
 Now sync the gradle.
 
