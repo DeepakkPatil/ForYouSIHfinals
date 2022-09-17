@@ -61,3 +61,6 @@ Now the app is ready to install. Minimum android version required is 5.5 lollipo
 
 
 <h2><u><b>Note:</b></h2></u>Do not change the name of the package.
+
+![image](https://user-images.githubusercontent.com/108725514/190843697-65c865fb-7bde-4ae5-a613-c7f88ff578a1.png)
+
