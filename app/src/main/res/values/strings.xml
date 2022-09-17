@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">ForYou</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="food1">Rich in omega-3 fatty acids, this fish is known for its
+        antioxidant and anti-inflammatory properties, which relax the uterus and fight cramps.</string>
+    <string name="food2">Drinking a lot of water is always important, and this is especially true during your period.
+        Staying hydrated can reduce your chances of getting dehydration headaches, a common symptom of menstruation
+        .Drinking plenty of water can also stop you from retaining water and bloating.
+    </string>
+    <string name="food3">Water-rich fruits, such as watermelon and cucumber, are great for staying hydrated.
+        Sweet fruits can help you curb your sugar cravings without eating a lot of refined sugars,
+        which can cause your glucose levels to spike and then crash.</string>
+    <string name="food4">A tasty and beneficial snack, dark chocolate is rich in iron and magnesium.
+        A 100-gram bar of 70 to 85 percent dark chocolate contains
+        67 percent of the recommended daily intake (RDI) for iron and 58 percent of the RDI for magnesium.</string>
+    <string name="food5">It’s common to experience a dip in your iron levels during your period, particularly if your menstrual flow is heavy. This can lead to fatigue, bodily pain, and dizziness.
+
+Leafy green vegetables such as kale and spinach can boost your iron levels. Spinach is also rich in magnesium.</string>
+    <string name="do2">► Use a heating pad on your lower abdomen or lower back.</string>
+    <string name="do1">► Eat healthy food and on proper time.</string>
+
+    <string name="do3">► Increase water intake.</string>
+    <string name="do4">► Eat dates
+        Dates are a great source of iron which can compensate for the lost blood.</string>
+    <string name="do5">► Get a 30-minute walk or gentle stretches, it helps relieve cramps.</string>
+    <string name="dont1">► Reduce intake of junk food and salted chips. It can increase your fluid retention.</string>
+    <string name="dont2">► Reduce consumption of caffeine Excessive caffeine intake will increase the pain.</string>
+    <string name="dont3">► Dont consume painkillers frequently during periods as they may cause nausea, drowsiness, headache for some women.</string>
+    <string name="dont4">► Dont stay up too late. Proper sleep is needed during your cycle.</string>
+    <string name="dont5">► Eating to much dairy products during this time can  leads to water retention and even cause constipatio.</string>
+    <string name="yogaconcentration">Concentration Build Yoga</string>
+    <string name="yogastress">Stress Release Yoga</string>
+    <string name="yogaanxiety">Anxiety Release Yoga</string>
+    <string name="yogafocus">Focus Build Yoga</string>
+    <string name="yoganeck">Neck Stretching Yoga</string>
+    <string name="stretchingFullBody">Full Body Stretching</string>
+    <string name="stretchingShoulder">Shoulder Stretching</string>
+    <string name="general">General Stretching</string>
+    <string name="goodmorning">Good Morning</string>
+    <string name="morning">Hopefully you have a better sleep</string>
+    <string name="sleepq1">How was your sleep ?</string>
+    <string name="sleepq2">How many hours you slept today?</string>
+    <string name="sleepq3">Note: You should do some exercise and yoga in morning. If having any sleeping issues please try to listen some deep sleep musics.</string>
+    <string name="sleepHead">What is sleep hygiene?</string>
+    <string name="sleepq1ans">Sleep hygiene is defined as behaviors that one can do to help promote good sleep using behavioral interventions. Getting good sleep is important in maintaining health. There are several things that you can do to promote good sleep and sleep hygiene, and ultimately get better sleep.</string>
+    <string name="sleeppoor1">Patterson points to seven signs that you may not be getting enough sleep or that you may have a sleep disorder:</string>
+    <string name="sleeppoor2">5. Daytime sleepiness, which can be caused by a sleep disorder or nighttime behaviors that reduce your sleep duration.</string>
+    <string name="sleeppoor3">6. General fatigue, which may occur for months or years but does not include daytime sleepiness.</string>
+    <string name="sleeppoor4">7. Increased appetite, which may be caused by hormone imbalances that can lead you to feel hungrier than usual and then less satisfied when you do eat.</string>
+    <string name="sleeppoor5">8. Inability to fall asleep, which in many cases is caused by digital devices. Melatonin is a hormone crucial to the sleep-wake cycle, and the blue light from smartphones and tablets reduces melatonin production.</string>
+    <string name="sleeppoor6">9. Frequent trips to the bathroom during the night, a condition known as nocturia, may be caused by sleep apnea, certain medications or caffeine.</string>
+    <string name="sleeppoor7">10. Nighttime awakenings, which are a common result of alcohol. Although alcohol may help you get to sleep, your body’s overnight processing of the alcohol sugars can lead to waking up, increased snoring, sleep apnea and nocturia.</string>
+    <string name="sleeppoor8">11. Waking up gasping or choking, which may be symptom of sleep apnea, a condition in which the airway becomes blocked during sleep.</string>
+    <string name="sleeppoor9">1. Frequent sleep disturbances</string>
+    <string name="sleeppoor10">2. Excessive daytime sleepiness</string>
+    <string name="sleeppoor11">3. Lack of consistency in sleep quality or quantity</string>
+    <string name="sleeppoor12">4. Moodiness, Irritability, Low mood, Forgetfulness, Poor concentration, Lack of motivation</string>
+    <string name="sleepqans1">Try to go to sleep and wake up at about the same times every day — even on weekends. This reinforces your body’s sleep cycle (your internal clock), which can make it easier for you to fall asleep and wake up every day. Sticking to a consistent schedule may also help reduce daytime sleepiness. Make sure that the bedtime you pick allows you to get 7 to 8 hours of sleep each night.</string>
+    <string name="sleepqans2" />
+    <string name="sleepqans3">Electronic devices like your phone emit blue light, which can reduce the melatonin levels in your body. Melatonin is a chemical that controls your sleep/wake cycle. When your melatonin levels dip, it can be more difficult to fall asleep. Devices that emit blue light can also distract you, keeping your brain alert. This may make it harder to fall asleep. You might think that not looking at your phone close to bedtime is enough, but keeping your phone near your bed can disrupt your sleep, even if you’re not aware of it. The message notifications, buzzing, and light that can suddenly pop on in the middle of the night can wake you up momentarily, leading to an interrupted sleep.</string>
+    <string name="sleepqans4">As little as 30 minutes of aerobic exercise per day can improve your sleep quality, as well as your overall health. And if you can exercise outside, that might increase the benefits even more, since exposure to natural light helps regulate your sleep cycle. But if you can’t get outside, don’t worry. Even regular indoor exercise may help you sleep better. Just avoid exercising within an hour or two of your bedtime. This can increase your energy levels and body temperature, which may make it harder to fall asleep. If you want to do some type of activity later in the day, try doing stretches or yoga.</string>
+    <string name="sleepqans5">The effects of caffeine can last 3 to 7 hours after you consume it. This means that your afternoon cup of coffee may keep you awake and alert a lot longer than you’d like. Although it’s usually best to limit your caffeine intake to the morning hours, keep in mind that everyone has a different tolerance to caffeine. Some people may be able to stretch their consumption to midafternoon, while others might need to cut themselves off much earlier in order to fall asleep easily. The less caffeine you consume, the more sensitive you may be to its effects.</string>
+    <string name="sleepqans6">A cool, dark, quiet room may help you fall asleep and stay asleep more easily. For most people, a bedroom temperature between 60°F and 67°F (15.6°C and 19.4°C) is the optimal temperature for sleeping. It’s also important to make sure you have a comfortable mattress, pillows, and bed linens. The more comfortable you are, the easier it may be to fall asleep and stay asleep. Want suggestions? Browse our market, filled with editor-trusted and expert-verified pillow and mattress recommendations. If you’re a light sleeper or have noisy neighbors, a good pair of earplugs may help you sleep without being disrupted. Also, if your bedroom gets flooded with too much light, you may want to consider using blackout curtains or an eye mask to keep your sleep environment as dark as possible.</string>
+    <string name="sleepqans7">When you have a comfortable bed, it might be tempting to use it for reading, working, talking on the phone, watching TV, or other activities. However, it’s important to use your bed for sleep and sex only. This helps strengthen your brain’s association between your bed and sleep, making it easier to fall asleep. Reading may be one way you relax before going to sleep, but even books can be disruptive to your sleep if they keep your brain alert. Try reading on the couch before moving to your bed instead.</string>
+    <string name="sleepqans8">If you’re not tired, avoid lying in bed while you toss and turn. Instead, try doing a relaxing activity until you start to feel tired, then head to bed. If you don’t fall asleep within 20 minutes of going to bed, get up. Not being able to fall asleep may cause you to become frustrated, which can keep you awake even longer. Once you get out of bed, do something to help you unwind, like reading on the couch, until you’re tired enough to go back to bed.</string>
+    <string name="sleepqans9">Napping during the day can make it harder to fall asleep later and may make you more prone to waking up during the night. If you do need to nap: Keep it to 30 minutes or less. Avoiding napping later in the afternoon. Napping may affect the sleep pattern of older adults more than younger people, but the extent of this is still unclear.</string>
+    <string name="sleepqans10">Thinking about things you’re worried about can keep you awake at night. To help prevent your worries from keeping you awake: Write down your worries before going to bed to help get them out of your head. If your to-do list stresses you out, write that down as well. Prioritize what you need to do tomorrow and the rest of the week, then try to relax. Research suggests that a weighted blanket may help with anxiety and insomnia, and it may provide benefits similar to deep pressure therapy. Try meditation before bed to help calm your mind.</string>
+    <string name="ques_details_depressn">The most common depression screening tool is the Patient Health Questionnaire-9 (PHQ-9). It indicates whether an individual has symptoms of depression that may require professional intervention".</string>
+    <string name="what_Phq">The Patient Health Questionnaire is major depressive disorder (MDD) module of full PHQ.
+    </string>
+
+    <string name="futher_info"><a href="https://www.verywellmind.com/phq-9-patient-healthcare-questionnaire-for-depression-4149685">Click here for more info....</a></string>
+    <string name="councello1">Cyrus and Priya Vandrevala Foundation is a non-profit organisation that aims to provide significant funding and aid contributions for those suffering from mental health problems and illnesses in India. A national mental health Initiative in India, with an anti-stigma campaign to dispel negative beliefs about mental illnesses. ‍ A 24-7 Mental Health helpline to aid patients, their relatives and others struggling with mental health problems. The Helpline currently operates Pan India. Advice and assistance is available in English, Hindi and all major Indian regional languages.Counselling also available through chat, email and WhatsApp directly from the website.</string>
+    <string name="councello2">Parivarthan Counselling, Training and Research Centre is a registered, non-profit society that provides multimodal services in the field of mental health(www.parivarthan.org). The Helpline is serviced by trained, professional counsellors who are committed to a rigorously ethical practice and who respect the confidentiality of the callers.</string>
+    <string name="councello3"> Voice That Cares is a free public helpline that provides psychosocial counselling support on a wide range of mental health matters including anxiety, fear, panic attacks, guilt, grief, loneliness, anger, exam stress, pandemic induced psychological issues, stigma, etc. We also provide first aid support for people with suicidal tendencies, depressive disorders, substance abuse, obsessive-compulsive disorder (OCD) and other mental health concerns. The primary expected outcome of the “Voice that Cares” initiative is to offer individuals an improved ability to manage their wellbeing and mental health. It may be noted that this helpline is not a substitute for medical advice or professional help.</string>
+    <string name="contact_c_1"><a href="tel:9999666555">Call us</a></string>
+    <string name="contact_c_2"><a href="tel:+91-7676602602">Call us</a></string>
+    <string name="contact_c_3"><a href="tel:8448-8448-45">Call us</a></string>
+    <string name="relaxingKids">FUN ACTIVITIES</string>
+    <string name="relaxingPrimary">RELAXING ACTIVITIES</string>
+    <string name="journalq">Journaling helps students to be less restrained when expressing themselves. It also gives students time to organize their thoughts and prepare responses, which can give them the extra confidence.</string>
+    <string name="benifitsJournal">Benifits of journal writting :</string>
+    <string name="benifitsJournal1">1. Improves Mental Health.</string>
+    <string name="benifitsJournal2">2. Encourages Self-Confidence.</string>
+    <string name="benifitsJournal3">3. Boosts Emotional Intelligence.</string>
+    <string name="benifitsJournal4">4. Helps with Achieving Goals.</string>
+    <string name="benifitsJournal5">5. Inspires Creativity.</string>
+    <string name="benifitsJournal6">6. Boosts Memory.</string>
+    <string name="benifitsJournal7">7. Enhances Critical Thinking Skills.</string>
+    <string name="benifitsJournal8">8. Heightens Academic Performance.</string>
+    <string name="benifitsJournal9">9. Improves Physical Health.</string>
+    <string name="benifitsJournal10">10. Strengthens Communication and Writing Skills.</string>
+    <string name="benifitsJournal11">Tips for How to Write a Journal</string>
+    <string name="benifitsJournal12">1. Choose your kind of journal.</string>
+    <string name="benifitsJournal13">2. Date your entry.</string>
+    <string name="benifitsJournal14">3. Tell the truth.</string>
+    <string name="benifitsJournal15">4. Write down details.</string>
+    <string name="benifitsJournal16">5. Write down what you felt.</string>
+    <string name="benifitsJournal17">6. Write a lot or a little.</string>
+    <string name="benifitsJournal18">7. If you’ve got writer’s block, write about gratitude.</string>
+    <string name="benifitsJournal19">8. Schedule your journaling into your day.</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="hobbies1">Its time for you to do your hobby. We all know that hobbies are one of the best relaxing activities.</string>
+    <string name="hobbies2">Explore some unique ideas: </string>
+    <string name="orgami">Origami</string>
+    <string name="orgamides">Origami is an ancient art of folding paper to create interesting figures and shapes. Your child can start with simple shapes of animals or other things. There are many online classes for beginners which explain step by step procedure of origami, You can also find easy to understand guidebooks to help your child learn this art.
+    </string>
+    <string name="drawing">Drawing</string>
+    <string name="drawingdesc">Kids can learn simple drawing and sketching techniques to draw whatever their minds fancy. Initially, beginners can learn drawing simple patterns by tracing and progress eventually.There are several DIY paint kits available for kids of different age groups. Kids can have fun with different colours such as acrylic, oil, or watercolours while learning how to paint. Kids may also get an opportunity to learn about famous artists and their masterpieces.</string>
+    <string name="collectingitems">Collecting Items</string>
+    <string name="collectingiemsdesc">Collecting items may help kids build their cognitive skills of classifying and grouping things and ability to spot differences. Some of the collectable items can be:</string>
+    <string name="desc2">1. stamps  2. coins  3. rocks  4. comic books  5.Toys</string>
+    <string name="gardening">Gardening</string>
+    <string name="gardeningdesc">Kids may enjoy taking up gardening as a hobby. Not only do they get a chance to dirty their hands while dealing with mud but planting a seed and watching it sprout can be an absolute magic!</string>
+    <string name="astronomy">Astronomy</string>
+    <string name="astronomydesc">Getting your child to pick up astronomy as a hobby can give him a lifelong of happiness and of course a potential career in future. Watching the stars, constellations, studying about the planets, our solar system, the phases of the moon can be fascinating for kids of all age groups.</string>
+    <string name="dancing">Dancing</string>
+    <string name="dancingdesc">Kids can learn various styles of dance forms like ballet, jazz, salsa, street dance, Indian dances, and so on.</string>
+    <string name="singing">Singing</string>
+    <string name="singingdesc">If you think your child has a melodious voice and has basic knowledge of musical notes. Encourage him to learn classical music. You can even ask him to join a choir or even practice solo singing. Your kid can learn to play instruments like the keyboard, to begin with, and slowly graduate to learn musical instruments like the guitar or the drums.</string>
+    <string name="photography">Photography</string>
+    <string name="photographydesc">Kids of this generation are gadget-friendly. So, photography and videography can be a great hobby for kids.</string>
+    <string name="cooking">Cooking</string>
+    <string name="cookingdesc">Learning how to cook is the latest fad these days. Celebrities chefs like Gordon Ramsay and Vikas Khanna have glamourized this art. You can start by allowing your kid to cook or bake simple things.</string>
+    <string name="reading">Reading</string>
+    <string name="readingdesc">Inculcating good habits at the right age can prove beneficial for kids in the long run. And the habit of reading in kids can be very useful. It helps in improving their vocabulary and language skills. You can get your kid a library membership or get him interested in reading books online.</string>
+    <string name="riddle1">I am found in your bedroom, So you can keep it clean soon. Your clothes and scarves, here you keep. You hang them here so they can sleep. </string>
+    <string name="riddle2">I give you light when it is dark, So you can see clear and stark. I have batteries to keep me lit, You can carry me wherever you deem fit.</string>
+    <string name="riddle3">You use me to stay neat and clean, Use me for 20 seconds, if you know what I mean. I’m found in the bathroom and near the sink, I sit in a dispenser, or so I think.  </string>
+    <string name="riddle4">I’m your favorite Starbucks drink, After me, it becomes easier to think. I’m made from beans and sometimes milk, Drinking me is smooth as silk. </string>
+    <string name="riddle5">You need me to open a lock, Without me, you’ll have a shock. Keep me with you wherever you go, If you lose me, it would be quite the show! </string>
+    <string name="riddle6">You step on me, but that’s alright.
+
+I keep your shoes neat and bright.
+
+I’m found right next to the front door,
+
+Near me, you’ll find what you’re looking for. </string>
+    <string name="riddle7">You wear me with socks to walk every day,
+
+I’m a type of footwear, I say!
+
+I come in a pair, and I have laces,
+
+You can draw patterns on me, or even faces. </string>
+    <string name="riddle8">I come in two, so don’t mix me.
+
+I’m warm and fuzzy, as you can see.
+
+You wear me before you wear your shoes,
+
+So don’t forget me – that’s on you! </string>
+    <string name="riddle9">Tick-tock, here I go,
+
+I show you the time, fast and slow.
+
+Numbers I have twelve, and hands I have three,
+
+I show you when you’ll be free. </string>
+    <string name="riddle10">I’m white and full of Vitamin D,
+
+Sometimes you drink me with coffee.
+
+You eat cereal with me in a bowl,
+
+I’m healthy and good for your soul.
+
+</string>
+
+    <string name="q1">Do you have proper ventilation in your room ?</string>
+    <string name="q2">Is there any humidity in the Room ?</string>
+    <string name="q3">Is your bedroom towards Road side ?</string>
+    <string name="q4">Is there any light turned in your room during sleep ?</string>
+    <string name="q5">Are you Electrosensitive (sensitive to Electromagnetic Fields) ?</string>
+    <string name="q6">Have you taken dinner just before going to Bed ?</string>
+    <string name="q7">Are you taking any presribed Medicines ?</string>
+    <string name="q8">Do you play any sports ?</string>
+    <string name="ans1">A range of ventilation options are available, ranging from simple extractor fans, which are now installed in most student bathrooms, kitchens and laundry rooms, up to Positive Input Ventilation units. So, you have great sleep and fell better.</string>
+    <string name="ans2">Actively Use Your Exhaust/Ventilation Fans.</string>
+    <string name="ans3">You can use ear plugs to improve your sleep.</string>
+    <string name="ans4">You should switch off the lights when you will sleep because Light exposure before or during bedtime can make it difficult to fall and stay asleep because your brain wont make enough sleep-inducing melatonin.</string>
+    <string name="ans5">If yes then you should not use mobile or any electronics device while you are going to sleep.</string>
+    <string name="ans6">Eating before bed can cause the bodys metabolism to slow ,so you should avoid taking dinner just before going to bed.</string>
+    <string name="ans7">Try to consume less medicine before going to sleep, as this will make your sleep schedule poor.</string>
+    <string name="ans8">If no you should play some sports as it will maintain your physical and mental health.</string>
+
+</resources>

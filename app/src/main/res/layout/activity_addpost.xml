@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddpostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorbg"
+        android:layout_height="match_parent"
+        tools:context=".AddpostActivity">
+
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/textTitle"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:hint="Post Title"
+            android:textColorHint="@color/black"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/imageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/add_image" />
+        <EditText
+            android:background="@color/white"
+            android:height="200dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Post Description"
+            android:textColorHint="@color/black"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:id="@+id/textDesc"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/postButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:text="Upload"
+            android:layout_marginLeft="150dp"
+            android:textAlignment="center"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</ScrollView>

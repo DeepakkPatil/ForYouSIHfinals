@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aaks32173.sih2022new">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SIH2022NEW">
+        <activity
+            android:name=".question"
+            android:exported="false" />
+        <activity
+            android:name=".refresh2"
+            android:exported="false" />
+
+        <activity
+            android:name=".recommondationsSleep"
+            android:exported="false" />
+        <activity
+            android:name=".parent"
+            android:exported="false" />
+        <activity
+            android:name=".weektodo"
+            android:exported="false" />
+        <activity
+            android:name=".ninetwelvegroup"
+            android:exported="false" />
+        <activity
+            android:name=".SixthEighthGroup"
+            android:exported="false" />
+        <activity
+            android:name=".gtbtPanelFourthFifth"
+            android:exported="false" />
+        <activity
+            android:name=".chatbot.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".stepcounter"
+            android:exported="true" />
+        <activity
+            android:name=".splashac"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".recommended"
+            android:exported="false" />
+        <activity
+            android:name=".depressn_main"
+            android:exported="false" />
+        <activity
+            android:name=".addtodo"
+            android:exported="false" />
+        <activity
+            android:name=".addintrest"
+            android:exported="false" />
+        <activity
+            android:name=".flextimefourthfifth"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".fouthFifthGroup" />
+        </activity>
+        <activity
+            android:name=".podcasts"
+            android:exported="false" />
+        <activity
+            android:name=".MensturalFourthFifthGroup"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayerPlaylist"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".stepcounter" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".addpersoneltodo"
+            android:exported="false" />
+        <activity
+            android:name=".personeltodo"
+            android:exported="false" />
+        <activity
+            android:name=".todo"
+            android:exported="false" />
+        <activity
+            android:name=".fouthFifthGroup"
+            android:exported="false" />
+        <activity
+            android:name=".sports"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".exercise"
+            android:exported="false" />
+        <activity
+            android:name=".relaxingPanel"
+            android:exported="false" />
+        <activity
+            android:name=".relaxingQuizes"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRiddles"
+            android:exported="false" />
+        <activity
+            android:name=".relaxingActivityHigher"
+            android:exported="false" />
+        <activity
+            android:name=".relaxingHobies"
+            android:exported="false" />
+        <activity
+            android:name=".relaxingJournaling"
+            android:exported="false" />
+        <activity
+            android:name=".relaxingActivityPrimary"
+            android:exported="false" />
+        <activity
+            android:name=".webView"
+            android:exported="false" />
+        <activity
+            android:name=".relaxingActivityKids"
+            android:exported="false" />
+        <activity
+            android:name=".sleepTips"
+            android:exported="false" />
+        <activity
+            android:name=".symptomsSleep"
+            android:exported="false" />
+        <activity
+            android:name=".sleepHygienePanle"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer"
+            android:exported="false" />
+        <activity
+            android:name=".musicSleep"
+            android:exported="false" />
+        <activity
+            android:name=".getSleepDetails"
+            android:exported="false" />
+        <activity
+            android:name=".sleepTracker"
+            android:exported="false" />
+        <activity
+            android:name=".meditation"
+            android:exported="false" />
+        <activity
+            android:name=".stretching"
+            android:exported="false" />
+        <activity
+            android:name=".workout"
+            android:exported="false" />
+        <activity
+            android:name=".yoga"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashHome_Nur_3" />
+        </activity>
+        <activity
+            android:name=".UserDiet"
+            android:exported="false" />
+        <activity
+            android:name=".Details"
+            android:exported="false" />
+        <activity
+            android:name=".chekk"
+            android:exported="false" />
+        <activity
+            android:name=".flex_time"
+            android:exported="false" />
+        <activity
+            android:name=".ui.chatbotquestion"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DashHome_Nur_3"
+            android:exported="false" />
+        <activity
+            android:name=".good_bad_touch_comic"
+            android:exported="false" />
+        <activity
+            android:name=".good_bad_touch_panel"
+            android:exported="false" />
+        <activity
+            android:name=".vedioPlay"
+            android:exported="false" />
+        <activity
+            android:name=".goodBadtouch"
+            android:exported="false" />
+        <activity
+            android:name=".AddpostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WetimeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Dash_home"
+            android:exported="false" />
+        <activity
+            android:name=".refresh"
+            android:exported="false" />
+        <activity
+            android:name=".Showpost"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doanddont"
+            android:exported="false" />
+        <activity
+            android:name=".magazine"
+            android:exported="false" />
+        <activity
+            android:name=".diet"
+            android:exported="false" />
+        <activity
+            android:name=".log"
+            android:exported="false" />
+        <activity
+            android:name=".MenstrualHome"
+            android:exported="false" />
+        <activity
+            android:name=".councellor"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomNavigation"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_navigation" />
+        <activity
+            android:name=".Interest"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SIH2022NEW.NoActionBar" />
+
+        <receiver android:name=".recieverAlarm" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

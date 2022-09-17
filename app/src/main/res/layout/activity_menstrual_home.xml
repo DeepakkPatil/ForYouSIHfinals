@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2"
+    tools:context=".MenstrualHome">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/salsa"
+        android:padding="5dp"
+        android:text="REMEMBER TO TAKE CARE OF YOURSELF"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape2"
+                android:backgroundTint="#77F8F6FA"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="141dp">
+
+                <TextView
+                    android:id="@+id/dayofperiod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#070707"
+                    android:textSize="80dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textperiod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/salsa"
+                    android:gravity="center"
+                    android:text="Day of period"
+                    android:textColor="#616060"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/predicteddate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/salsa"
+                    android:gravity="center"
+                    android:text="07 Aug next period"
+                    android:textColor="#616060"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/log2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="372dp">
+
+                <Button
+                    android:id="@+id/startperiod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:backgroundTint="#72FFFFFF"
+                    android:text="Period start ?"
+                    android:textColor="#070707"
+                    app:cornerRadius="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+                <Button
+                    android:id="@+id/log"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:backgroundTint="#72FFFFFF"
+                    android:text="Log"
+                    android:textColor="#070707"
+                    app:cornerRadius="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/log2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/log2">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/exercise"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="25dp"
+                            android:backgroundTint="#F8A9B9"
+                            android:fontFamily="@font/salsa"
+                            android:text="Exercise"
+                            android:textColor="#616060"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:cornerRadius="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/diet"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="25dp"
+                            android:layout_marginTop="10dp"
+                            android:backgroundTint="#F8A9B9"
+                            android:fontFamily="@font/salsa"
+                            android:text="Diet"
+                            android:textColor="#616060"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:cornerRadius="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/magazine"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="25dp"
+                            android:layout_marginTop="10dp"
+                            android:backgroundTint="#F8A9B9"
+                            android:fontFamily="@font/salsa"
+                            android:text="LET'S UNDERSTAND"
+                            android:textColor="#616060"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            app:cornerRadius="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/doanddont"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="25dp"
+                            android:layout_marginTop="10dp"
+                            android:backgroundTint="#F8A9B9"
+                            android:fontFamily="@font/salsa"
+                            android:text="Do's and Dont's"
+                            android:textColor="#616060"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:cornerRadius="20dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

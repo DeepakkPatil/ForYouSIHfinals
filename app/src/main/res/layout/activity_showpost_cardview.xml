@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorbg"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="5dp"
+    android:layout_margin="20dp"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorbg"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="15dp"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:id="@+id/post_email_id"
+                android:layout_height="wrap_content"
+                android:text="Email of user:"
+                android:textColor="@color/color1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="15dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:id="@+id/post_title"
+                android:layout_height="wrap_content"
+                android:text="Post title goes here"
+                android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:orientation="horizontal">
+                <ToggleButton
+                    android:id="@+id/tgbutton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/toggle_selector"
+                    android:onClick="onDefault"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:padding="5dp"
+                    android:textSize="25dp"
+                    android:id="@+id/tvlike"
+                    android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/post_img"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/add_image" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/post_desc"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:gravity="left"
+                    android:paddingBottom="15dp"
+                    android:text="Post Description goes here"
+                    android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222831"
+    tools:context=".addintrest">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter intrest of activity\nbetween 0-100"
+        android:textColor="#00ADB5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="364dp"
+        android:layout_height="291dp"
+        android:background="#00ADB5"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/exercise"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:hint="exercise"
+            android:inputType="phone"
+            tools:ignore="InvalidId,TouchTargetSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/wetime"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:hint="wetime"
+            android:inputType="phone"
+            tools:ignore="InvalidId,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/musicpodcast"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:hint="musicpodcast"
+            android:inputType="phone"
+            tools:ignore="InvalidId,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/relaxingactivity"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:hint=" relaxingactivity"
+            android:inputType="phone"
+            tools:ignore="InvalidId,TouchTargetSizeCheck" />
+
+
+        <EditText
+            android:id="@+id/nutrition"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:hint="nutrition"
+            android:inputType="phone"
+            tools:ignore="InvalidId,TouchTargetSizeCheck" />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFF5"
+        android:text="Submit"
+        android:textColor="#222831"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.349" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

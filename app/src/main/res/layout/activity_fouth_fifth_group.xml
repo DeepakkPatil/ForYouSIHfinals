@@ -1,0 +1,390 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FADD88"
+    tools:context=".fouthFifthGroup">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:alpha="0.4"
+        android:translationZ="-10dp" />
+<!--        android:background="#ffc76a"-->
+
+
+    <ImageView
+        android:id="@+id/img_3to5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:alpha="0.96"
+        android:src="@drawable/selfcare_check" />
+    <TextView
+        android:id="@+id/tvm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_3to5"
+        android:layout_centerHorizontal="true"
+        android:text="Preparatory Level"
+        android:textColor="#E8000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:alpha="0.7"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/bg_3to5"
+        android:translationZ="-5dp" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="610dp"
+        android:id="@+id/scrollable_3to5"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/tvm"
+        android:layout_centerInParent="true"
+        >
+        <LinearLayout
+            android:layout_width="369dp"
+            android:layout_height="654dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:id="@+id/lla"
+                android:orientation="horizontal">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="230dp"
+                    android:layout_height="270dp"
+                    android:layout_marginLeft="-40dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/layer" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_3to5"
+                    android:layout_width="266dp"
+                    android:layout_height="192dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="-80dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="90dp"
+                    android:padding="10sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <ImageButton
+                        android:id="@+id/music"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/music_3to5" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/salsa"
+                        android:text="MUSIC"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/podcasts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        app:srcCompat="@drawable/rectangle_18"
+                        android:background="@drawable/shape"/>
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/salsa"
+                        android:text="INSPIRATIONAL STORIES"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/exercise_3to5"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/exercise_3to5"/>
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/salsa"
+                        android:layout_height="wrap_content"
+                        android:text="EXERCISE"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/diet_3to5"/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/salsa"
+                        android:layout_height="wrap_content"
+                        android:text="DIET"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/wetime"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/wetime_3to5"/>
+                    <TextView
+                        android:id="@+id/wetimetext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/salsa"
+                        android:text="We Time"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/todobtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/shape"
+                        app:srcCompat="@drawable/rectangle_14" />
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/salsa"
+                        android:text="TO-DO LIST "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/post"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        app:srcCompat="@drawable/rectangle_17"
+                        android:background="@drawable/shape"/>
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/salsa"
+                        android:text="NOWCAST"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/relaxing"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/relaxing_activities_3to5"/>
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/salsa"
+                        android:text="RELAXING ACTIVITIES"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/gtbt"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/gtbt_3to5"/>
+                    <TextView
+                        android:id="@+id/gtbttext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/salsa"
+                        android:text="GOOD AND BAD TOUCH"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <ImageButton
+                        android:id="@+id/menstural"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/menstrual_3to5"/>
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/salsa"
+                        android:text="KNOW YOUR BODY"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/chatbot_3to5"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:layout_marginStart="32dp"
+        android:text="ChatBot"
+        android:fontFamily="@font/salsa"
+        app:icon="@drawable/ic_baseline_chat_24"
+        android:backgroundTint="#FFC400"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/chatbotbadge_3to5"
+        android:layout_width="18sp"
+        android:layout_height="18sp"
+        android:layout_alignTop="@id/chatbot_3to5"
+        android:layout_alignRight="@id/chatbot_3to5"
+        android:background="@drawable/roundbadge"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".meditation"
+    android:background="#ECF9FE">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/meditationbgcheck"/>
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Click the button to watch full video"
+        android:textSize="20dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/meditation1"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/shape7"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        android:text="Meditation for peace of mind" />
+
+                    <ImageView
+
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="3"
+                        android:src="@drawable/meditationcheck1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/meditation2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Five minutes deep meditation" />
+
+                <ImageView
+
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/meditationcheck2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/meditation3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Meditation for inner peace and calm" />
+
+                <ImageView
+
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/meditationcheck5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/meditation4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Meditation for positive thoughts" />
+
+                <ImageView
+
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/meditationcheck3" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/meditation5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text=" Meditation is easier than you think" />
+
+                <ImageView
+
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/meditationcheck4" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

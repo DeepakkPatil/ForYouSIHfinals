@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".good_bad_touch_panel"
+    android:layout_gravity="center"
+    android:background="@drawable/gtbt_bg">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/gif1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape7"
+        android:layout_marginHorizontal="100dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <Button
+            android:id="@+id/openvideos"
+            android:layout_width="150dp"
+            android:layout_margin="35dp"
+            android:backgroundTint="#77CDF4"
+            android:layout_gravity="center"
+            android:fontFamily="@font/salsa"
+            android:textColor="#B9020202"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            android:layout_height="150dp"
+            android:text="Lets Watch"/>
+    </LinearLayout>
+</RelativeLayout>

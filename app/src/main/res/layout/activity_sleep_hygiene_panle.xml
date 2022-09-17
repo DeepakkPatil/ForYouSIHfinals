@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sleepHygienePanle"
+    android:background="#ECF9FE">
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:src="@drawable/sleepback" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sleepq"
+            android:layout_margin="7dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sleepHead"
+                android:gravity="center"
+                android:textSize="45dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/salsa"
+                android:textColor="@color/white"
+
+                android:background="#A1DFFB"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp">
+            <Button
+                android:id="@+id/poorsleep"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="180dp"
+                android:layout_margin="10dp"
+                app:cornerRadius ="10dp"
+                android:text="Symptomps of poor sleep hygiene"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:fontFamily="@font/salsa"
+
+                android:backgroundTint="#A1DFFB"/>
+            <Button
+                android:id="@+id/tips"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_margin="10dp"
+                android:layout_height="180dp"
+                app:cornerRadius ="10dp"
+                android:text="Tips to improve your sleep cycle"
+                android:textSize="15dp"
+                android:fontFamily="@font/salsa"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:backgroundTint="#A1DFFB"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="1"
+            android:padding="5dp">
+            <Button
+                android:layout_width="160dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_height="180dp"
+                android:gravity="center"
+                app:cornerRadius ="10dp"
+                android:text="Videos"
+                android:textSize="15dp"
+                android:fontFamily="@font/salsa"
+
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:backgroundTint="#A1DFFB"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

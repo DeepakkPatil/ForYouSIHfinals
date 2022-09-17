@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flextimefourthfifth">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-30dp"
+        android:layout_marginBottom="-50dp"
+        android:alpha="0.4"
+        android:src="@drawable/exercise_bg_3to5" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif1_exercise_3to5"
+        android:layout_width="800dp"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/exercisegif_3to5"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/walk"
+        android:text="walk"
+        android:fontFamily="@font/salsa"
+        android:textSize="25dp"
+        />
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/gif1_exercise_3to5"
+        android:layout_alignParentStart="true"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Exercises"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <LinearLayout
+                android:id="@+id/btn1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Exercise1" />
+
+                <ImageView
+                    android:layout_width="180dp"
+
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/exercisegif3to51" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Exercise2" />
+
+                <ImageView
+                    android:layout_width="190dp"
+
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/exercisegif3to52" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Exercise3" />
+
+                <ImageView
+                    android:layout_width="190dp"
+
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/exercisegif3to53" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Exercise4" />
+
+                <ImageView
+                    android:layout_width="190dp"
+
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/exercisegif3to54" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Exercise5" />
+
+                <ImageView
+                    android:layout_width="190dp"
+
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/exercisegif3to55" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Exercise6" />
+
+                <ImageView
+                    android:layout_width="190dp"
+
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/exercisegif3to56" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape7"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:text="Exercise7" />
+
+                <ImageView
+                    android:layout_width="190dp"
+
+                    android:layout_height="100dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/exercisegif3to57" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

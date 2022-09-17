@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Interest"
+    >
+
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginRight="313dp"
+        android:scaleX="5"
+        android:scaleY="5"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/salsa"
+        android:text="Let us know what you like to do!"
+        android:textColor="#000002"
+        android:textSize="34sp"
+        android:translationZ="10dp" />
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="27dp"
+        android:background="@color/white"
+        android:padding="2dp"
+        android:src="@drawable/int_workout" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/icon_bg"
+        android:padding="3dp"
+        android:src="@drawable/int_dance" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/icon_bg"
+        android:padding="2dp"
+        android:src="@drawable/int_indoor" />
+
+    <ImageView
+        android:id="@+id/img4"
+
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/img1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/icon_bg"
+        android:padding="2dp"
+        android:src="@drawable/int_music" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/img2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/icon_bg"
+        android:padding="2dp"
+        android:src="@drawable/int_art" />
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/img3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/icon_bg"
+        android:padding="2dp"
+        android:src="@drawable/int_travel" />
+
+    <ImageView
+        android:id="@+id/img9"
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/img6"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/icon_bg"
+        android:padding="2dp"
+        android:src="@drawable/int_yoga" />
+
+    <ImageView
+        android:id="@+id/img7"
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/img4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/icon_bg"
+        android:padding="2dp"
+        android:src="@drawable/int_read" />
+
+
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_width="114dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/img5"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="148dp"
+        android:background="@drawable/icon_bg"
+        android:padding="2dp"
+        android:src="@drawable/int_sports" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="233dp"
+        android:layout_height="194dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/salsa"
+        android:text="Hello,"
+
+        android:textColor="#000002"
+        android:textSize="34sp"
+        android:translationZ="10dp" />
+
+    <TextView
+        android:id="@id/tvimg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img4"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/salsa"
+        android:text="Music"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvimg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img4"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/salsa"
+        android:text="Music"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvimg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img7"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/salsa"
+        android:text="Reading"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tvimg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/salsa"
+        android:text="Exercise"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvimg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/salsa"
+        android:text="Dancing"
+        android:textColor="@color/black"
+
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tvimg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img5"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/salsa"
+        android:text="Drawing"
+        android:textColor="@color/black"
+
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tvimg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img6"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:fontFamily="@font/salsa"
+        android:text="Walking"
+        android:textColor="@color/black"
+
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tvimg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img9"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:fontFamily="@font/salsa"
+        android:text="Yoga"
+        android:textColor="@color/black"
+
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tvimg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img8"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/salsa"
+        android:text="Sports"
+        android:textColor="@color/black"
+
+        android:textSize="22dp" />
+
+
+
+    <TextView
+        android:id="@+id/tvimg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/salsa"
+        android:text="Indoor Games"
+
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/next_Button"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Next"
+        android:textSize="20dp"
+        app:cornerRadius="50dp" />
+
+
+</RelativeLayout>

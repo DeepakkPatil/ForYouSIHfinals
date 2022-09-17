@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/teal_200"
+    tools:context=".councellor">
+
+    <TextView
+        android:id="@+id/headd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Counselors"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headd">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/shape"
+                android:layout_margin="30dp"
+                android:padding="5dp">
+
+
+
+                <ImageView
+                    android:id="@+id/imagefood1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/vandrevala_foundation"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:id="@+id/food3"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/councello1"
+                    android:textColorLink="@color/black"
+                    android:lineHeight="20dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/contact1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shape2"
+                        android:fontFamily="@font/salsa"
+                        android:padding="10dp"
+                        android:text="@string/contact_c_1"
+                        android:textColor="@color/black"
+                        android:textColorLink="@color/black"
+                        android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/whatsapp1"
+                    android:background="@drawable/shape2"
+                    android:fontFamily="@font/salsa"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="25dp"
+                    android:text="Whatsapp Us"
+                    android:textColorLink="@color/black"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/shape"
+                android:layout_margin="30dp"
+                android:padding="5dp">
+
+
+
+                <ImageView
+                    android:id="@+id/image_coun2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/htnepparivarthan"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:id="@+id/tv_counc2"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/councello2"
+                    android:textColorLink="@color/black"
+                    android:lineHeight="20dp"/>
+
+                <TextView
+                    android:id="@+id/contact2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape2"
+                    android:fontFamily="@font/salsa"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/contact_c_2"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textSize="25dp" />
+
+
+
+            </LinearLayout><LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/shape"
+                android:layout_margin="30dp"
+                android:padding="5dp">
+
+
+
+                <ImageView
+                    android:id="@+id/image_coun3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/voicethatcares"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:id="@+id/tv_counc3"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/councello3"
+                    android:textColorLink="@color/black"
+                    android:lineHeight="20dp"/>
+
+                <TextView
+                    android:id="@+id/contact3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape2"
+                    android:fontFamily="@font/salsa"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/contact_c_3"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textSize="25dp" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

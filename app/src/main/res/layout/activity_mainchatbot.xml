@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/ch"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:translationZ="50dp"
+        android:src="@drawable/hiii_chatbot"
+        android:visibility="invisible" />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bg"
+        android:layout_marginTop="-30dp"
+        android:alpha="0.5"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/listening"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_layout_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="59dp"
+        android:background="#E4E4E4"
+        android:orientation="vertical"
+        android:translationZ="2dp">
+
+
+        <Button
+            android:id="@+id/btn_send1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:backgroundTint="#9964F8"
+            android:text="Send"
+
+            android:fontFamily="@font/montserrat_alternates"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/white"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btn_send2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+
+            android:fontFamily="@font/montserrat_alternates"
+            android:textAlignment="viewEnd"
+            android:backgroundTint="#9964F8"
+            android:text="Send"
+            android:textColor="@android:color/white"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btn_send3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+
+            android:fontFamily="@font/montserrat_alternates"
+            android:textAlignment="viewEnd"
+            android:backgroundTint="#9964F8"
+            android:text="Send"
+            android:textColor="@android:color/white"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E4E4E4"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@android:color/white"
+            android:hint="Type a message..."
+            android:inputType="textShortMessage"
+            android:padding="10dp"
+
+            android:fontFamily="@font/montserrat_alternates"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+
+            android:fontFamily="@font/montserrat_alternates"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#26A69A"
+            android:text="Send"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_layout_bar"
+        android:layout_below="@+id/dark_divider"
+        android:layout_marginTop="-7dp"
+        android:layout_marginBottom="8dp"
+        android:translationZ="2dp"
+        tools:itemCount="20"
+        tools:listitem="@layout/message_item" />
+
+    <View
+        android:id="@+id/dark_divider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#3A85B7" />
+
+
+</RelativeLayout>
