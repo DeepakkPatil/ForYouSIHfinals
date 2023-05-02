@@ -1,9 +1,17 @@
 <h1><u>FOR YOU</u></h1>
-
-![image](https://user-images.githubusercontent.com/108725514/190843886-083f23ac-6f45-49bf-a790-13c3ac3c74a2.jpg)
-
 ForYou is a self care mobile application for school and college going students. Main aim of the app is to promote self-care among students and to enhance the overall well-being including mental, physical and social health. This self-care application focuses on the school going students and university students to promote self care among them and motivate them to improve their social, physical and mental activities.
+<h2></h2>
+
+<p align="center">
+   <img alt="Android Studio" src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white"> </a>
+    <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"> </a>
+    <img alt="Kotlin" src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"> </a>
+    <img alt="Firebase" src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white"> </a>
+    <img alt="gradle" src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white"> </a>
+</p>
  
+<img src='https://user-images.githubusercontent.com/108725514/190843886-083f23ac-6f45-49bf-a790-13c3ac3c74a2.jpg' />
+
 This app is divided into 4 levels : The application provides following features: 
 
 
@@ -61,7 +69,7 @@ Open the folder in android studio as a new project and connect it to the firebas
 
 Set the plugin
 
-```
+```java
 plugins{
  
     id 'com.android.application' version '7.1.2' apply false
