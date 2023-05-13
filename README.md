@@ -20,6 +20,15 @@ This app is divided into 4 levels : The application provides following features:
 * MIDDLE LEVEL
 * SECONDARY & UNIVERSITY LEVEL
 
+<h5> Highlights: </h5>
+
+- Led and contributed as the lead software developer and designer in the Smart India Hackathon Finals project on self-care.
+- Developed a comprehensive web application with features such as depression detection, personalized to-do list, chat-bot, and a special section for women, aimed at enhancing overall well-being, including mental, physical, and social health.
+- Designed separate UI and added distinct features for each age group, from foundation to university level, to cater to their specific needs.
+- For the foundation level, included features such as bully detection, fight your fears, GK section, GT/BT, poems and rhymes, a parent section, and a special chatbot that provides actionables and does bully detection, achieving an accuracy rate of 98%.
+- For the preparatory level, incorporated features like music, inspirational stories, diet tracker, personalized to-do list, now cast, relaxing activities, and know your body for female students. Also, implemented a chatbot and ensured social well-being with response time under 3 seconds.
+- For the middle level, included features such as music, podcast, to-do list, flexTime (fitness), let's have a conversation (talk to NGOs), sleep tracker, menstrual tracker, and a different chatbot, achieving an accuracy rate of 95%. Additionally, provided recommended activities in the recommendation section with an accuracy rate of 93%.
+
 
 First, students have to register through the App. After Login, depending on  his/her academic level, a dashboard will be presented. A student can use the various features/services offered on the dashboard. There is a logout option, to exit the application. 
 
