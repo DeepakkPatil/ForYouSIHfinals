@@ -1,4 +1,9 @@
 <h1><u>FOR YOU</u></h1>
+
+<p align="center">
+<img src="https://github.com/DeepakkPatil/ForYouSIHfinals/assets/108725514/3e0f0020-87bd-4c33-b26f-af8c3680dc1b" width="200" />
+</p>
+
 ForYou is a self care mobile application for school and college going students. Main aim of the app is to promote self-care among students and to enhance the overall well-being including mental, physical and social health. This self-care application focuses on the school going students and university students to promote self care among them and motivate them to improve their social, physical and mental activities.
 <h2></h2>
 
@@ -10,7 +15,8 @@ ForYou is a self care mobile application for school and college going students. 
     <img alt="gradle" src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white"> </a>
 </p>
  
-<img src='https://user-images.githubusercontent.com/108725514/190843886-083f23ac-6f45-49bf-a790-13c3ac3c74a2.jpg' />
+![image](https://github.com/DeepakkPatil/ForYouSIHfinals/assets/108725514/f098eb1e-fb76-469d-8cce-d6ce3e03e6f0)
+
 
 This app is divided into 4 levels : The application provides following features: 
 
