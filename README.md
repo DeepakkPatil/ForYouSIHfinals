@@ -1,7 +1,7 @@
 <h1><u>FOR YOU</u></h1>
 
 <p align="center">
-<img src="https://github.com/DeepakkPatil/ForYouSIHfinals/assets/108725514/3e0f0020-87bd-4c33-b26f-af8c3680dc1b" width="200" />
+<img src="https://camo.githubusercontent.com/48201bd49f66ef3973805aef7794e4d0c79b00c0600cb4327c4ec253f4884ac8/68747470733a2f2f692e6962622e636f2f546762726a54672f7472616e736c6f676f2d4461726b2e706e67" width="200" />
 </p>
 
 <h4>Github Repo: <a href="https://github.com/Utsav2929/SIHPROJECT">Link</a>   </h4>
@@ -17,7 +17,8 @@ ForYou is a self care mobile application for school and college going students. 
     <img alt="gradle" src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white"> </a>
 </p>
  
-![image](https://github.com/DeepakkPatil/ForYouSIHfinals/assets/108725514/f098eb1e-fb76-469d-8cce-d6ce3e03e6f0)
+<img src="https://github.com/DeepakkPatil/ForYouSIHfinals/assets/108725514/a60939e2-9bb5-49fa-9a55-db603826f164"/>
+
 
 
 This app is divided into 4 levels : The application provides following features: 
